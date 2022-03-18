@@ -1,0 +1,11 @@
+.op-imageside {
+  flex: 1;
+  padding: 30px 0px 0px 50px;
+  justify-content: center;
+  margin-left: auto;
+  justify-items: center;
+}
+
+.img-container {
+  vertical-align: middle;
+}

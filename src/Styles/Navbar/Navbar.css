@@ -1,0 +1,24 @@
+.navbar-container {
+  height: 70px;
+  background-image: linear-gradient(90deg, #531ac5 0%, #7917c5 100%);
+  position: fixed;
+  transition: 0.3s ease;
+  justify-content: center;
+  width: 100%;
+}
+
+.scroll {
+  -webkit-box-shadow: 0px -50px 6px 48px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px -50px 6px 48px rgba(66, 68, 90, 1);
+  box-shadow: 0px -50px 6px 48px rgba(66, 68, 90, 1);
+}
+
+.navbar-content {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 30px 0px 30px;
+}

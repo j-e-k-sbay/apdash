@@ -1,0 +1,16 @@
+.op-textside {
+  color: white;
+  padding: 60px 20px 0px 0px;
+  flex: 1;
+}
+
+.op-header {
+  font-size: 40px;
+  font-weight: bold;
+  width: 450px;
+}
+
+.op-paragraph {
+  font-size: 20px;
+  width: 500px;
+}
