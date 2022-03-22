@@ -1,0 +1,66 @@
+.op-buttons-container {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.op-download-btn-container {
+  padding-right: 10px;
+}
+
+.op-download-btn {
+  display: flex;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #bf00dc;
+  color: white;
+  padding: 13px 32px;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+}
+
+.op-download-btn:hover {
+  background-color: #8e02a3;
+  transition: 0.5s ease;
+}
+
+.op-download-item {
+  padding: 0px 5px;
+}
+
+.op-video-btn-container {
+  padding: 0px 10px;
+}
+
+.op-video-btn {
+  display: flex;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: white;
+  color: grey;
+  align-items: center;
+  padding: 13px 16px;
+}
+
+.op-video-btn:hover {
+  color: rgb(44, 44, 44);
+  transition: 0.5s ease;
+}
+
+.op-video-item {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.op-watchtext-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px 5px;
+}
+
+.op-watchtext-content {
+  text-align: center;
+}

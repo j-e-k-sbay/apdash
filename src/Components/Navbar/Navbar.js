@@ -16,8 +16,12 @@ function Navbar() {
   return (
     <div className={scroll ? "navbar-container scroll":"navbar-container"}>
       <div className='navbar-content'>
-        <Logo></Logo>
-        <NavList></NavList>
+        <div className='navbar-content-left'>
+            <Logo></Logo>
+        </div>
+        <div className='navbar-content-right'>
+            <NavList></NavList>
+        </div>
       </div>
     </div>
   );

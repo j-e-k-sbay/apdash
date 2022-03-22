@@ -1,0 +1,41 @@
+.at-container {
+  padding: 8% 12%;
+}
+
+.at-content {
+  display: flex;
+}
+
+.single-at-container {
+  flex: 1;
+  -webkit-box-shadow: 0px 9px 29px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 9px 29px -14px rgba(66, 68, 90, 1);
+  box-shadow: 0px 9px 29px -14px rgba(66, 68, 90, 1);
+  border-radius: 15px;
+  padding: 25px 25px 35px 25px;
+  margin: 0px 15px;
+  transform: translateY(5px);
+  transition: 0.4s ease;
+}
+
+.single-at-container:hover {
+  transform: translateY(-5px);
+  transition: 0.4s ease;
+}
+
+.single-at-icon {
+  font-size: 40px;
+  color: #9629e6;
+}
+
+.single-at-header {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.single-at-text {
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 100;
+}

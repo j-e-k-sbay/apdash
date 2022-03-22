@@ -1,0 +1,29 @@
+.op-stats-container {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.op-stats-item-container {
+  flex: 1;
+  display: flex;
+}
+
+.op-stats-number {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+.op-stats-label {
+  font-size: 13px;
+  padding: 3px 0px;
+  font-weight: 600;
+}
+
+.op-stats-item-icon {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+}

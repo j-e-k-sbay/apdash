@@ -3,5 +3,5 @@
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 350px;
+  justify-content: right;
 }
