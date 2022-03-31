@@ -3,7 +3,7 @@ import '../../Styles/Navbar/NavList.css';
 import NavListOption from './NavListOption';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
-function NavList() {
+function NavList({isVisible}) {
     const list = [
         {label: "Home", icon: faCaretDown},
         {label: "About",icon:""},
@@ -16,7 +16,7 @@ function NavList() {
     ]
 
     return (
-        <div className="nav-list-container">
+        <div className={isVisible ? "nav-list-container-mobile" : "nav-list-container"}>
             {list.map((item,index) =>(
                 <NavListOption
                     label = {item.label}

@@ -1,7 +1,23 @@
+@media (max-width: 575.98px) {
+  .img-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 575.99px) and (max-width: 991.98px) {
+  .img-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 991.99px) {
+  .op-imageside {
+    margin-left: auto;
+  }
+}
+
 .op-imageside {
   flex: 1;
-
-  margin-left: auto;
   text-align: center;
 }
 

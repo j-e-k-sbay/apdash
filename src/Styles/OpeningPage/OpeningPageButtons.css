@@ -1,6 +1,7 @@
 .op-buttons-container {
   display: flex;
   padding: 20px 0px;
+  align-items: center;
 }
 
 .op-download-btn-container {

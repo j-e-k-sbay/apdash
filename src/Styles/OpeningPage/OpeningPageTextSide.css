@@ -8,7 +8,7 @@
 .op-header {
   font-size: 40px;
   font-weight: bolder;
-  width: 450px;
+  max-width: 450px;
   padding: 20px 0px;
 }
 
