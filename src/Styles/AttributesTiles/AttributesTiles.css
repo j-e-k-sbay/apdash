@@ -1,0 +1,80 @@
+@media (max-width: 767.98px) {
+  .at-container {
+    padding: 8% 5%;
+  }
+
+  .at-content {
+    flex-direction: column;
+  }
+
+  .single-at-container {
+    margin: 10px 0px;
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  .at-container {
+    padding: 8% 5%;
+  }
+
+  .at-content {
+    flex-direction: row;
+  }
+
+  .single-at-container {
+    margin: 0px 12px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 991.99px) {
+  .at-container {
+    padding: 8% 12%;
+  }
+
+  .at-content {
+    flex-direction: row;
+  }
+  .single-at-container {
+    margin: 0px 12px;
+    flex: 1;
+  }
+}
+
+.at-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-at-container {
+  -webkit-box-shadow: 0px 9px 29px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 9px 29px -14px rgba(66, 68, 90, 1);
+  box-shadow: 0px 9px 29px -14px rgba(66, 68, 90, 1);
+  border-radius: 15px;
+  padding: 25px 25px 35px 25px;
+  transform: translateY(5px);
+  transition: 0.4s ease;
+}
+
+.single-at-container:hover {
+  transform: translateY(-5px);
+  transition: 0.4s ease;
+}
+
+.single-at-icon {
+  font-size: 40px;
+  color: #9629e6;
+}
+
+.single-at-header {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.single-at-text {
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 100;
+}

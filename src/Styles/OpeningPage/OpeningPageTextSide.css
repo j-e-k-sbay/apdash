@@ -1,16 +1,19 @@
 .op-textside {
   color: white;
-  padding: 60px 20px 0px 0px;
   flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .op-header {
   font-size: 40px;
-  font-weight: bold;
-  width: 450px;
+  font-weight: bolder;
+  max-width: 450px;
+  padding: 20px 0px;
 }
 
 .op-paragraph {
-  font-size: 20px;
-  width: 500px;
+  font-size: 19px;
+  max-width: 550px;
+  line-height: 1.8;
 }

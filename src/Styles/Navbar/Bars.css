@@ -1,0 +1,9 @@
+.bars-container {
+  justify-content: center;
+  margin: auto;
+}
+
+.bars-icon {
+  color: white;
+  font-size: 25px;
+}

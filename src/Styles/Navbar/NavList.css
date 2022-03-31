@@ -3,5 +3,11 @@
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 350px;
+  justify-content: right;
+}
+
+.nav-list-container-mobile {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
 }

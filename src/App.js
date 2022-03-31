@@ -3,13 +3,16 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import OpeningPage from './Components/OpeningPage/OpeningPage';
 import WhitePage from './Components/WhitePage';
+import AttributesTiles from './Components/AttributesTiles/AttributesTiles';
 function App() {
 
   return (
-    <div className="App">
+    <div className="app">
       <Navbar></Navbar>
       <OpeningPage></OpeningPage>
-      <WhitePage></WhitePage>
+      <WhitePage>
+        <AttributesTiles/>
+      </WhitePage>
     </div>
   );
 }
