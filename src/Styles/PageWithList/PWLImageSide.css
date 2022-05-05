@@ -1,0 +1,40 @@
+@media (max-width: 575.98px) {
+    .pwl-img-container {
+      width: 100%;
+    }
+    .pwl-imageside {
+        margin-top: 50px;
+        text-align: center;
+    }
+  }
+  
+  @media (min-width: 575.99px) and (max-width: 991.98px) {
+    .pwl-img-container {
+      width: 50%;
+    }
+    .pwl-imageside {
+        margin-top: 50px;
+        text-align: center;
+    }
+  }
+  
+  @media (min-width: 991.99px) {
+    .pwl-imageside {
+      margin-left: auto;
+    }
+    .left{
+      text-align: left;
+    }
+    .right{
+      text-align: right;
+    }
+  }
+
+.pwl-imageside{
+    flex: 1;
+}
+
+.pwl-img-container {
+    vertical-align: middle;
+    max-width: 100%;
+  }

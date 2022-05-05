@@ -1,0 +1,10 @@
+.dark-header-container{
+    padding: 15px;
+    text-align: center;
+}
+
+.dark-header-content{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}

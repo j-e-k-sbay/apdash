@@ -1,0 +1,9 @@
+.dark-small-paragraph-container{
+    padding: 5px 10px;
+}
+
+.dark-small-paragraph-content{
+    color: #96858e;
+    font-size: 15px;
+    line-height: 1.6;
+}

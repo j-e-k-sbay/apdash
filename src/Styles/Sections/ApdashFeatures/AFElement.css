@@ -1,0 +1,15 @@
+.af-element-container{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.af-element-icon{
+    color: #9d36e6;
+    font-size: 35px;
+    min-width: 50px;
+    padding: 5px 0px;
+}
+
+.af-element-text{
+    text-align: left;
+}

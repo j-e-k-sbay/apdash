@@ -1,4 +1,40 @@
+@media (max-width: 767.98px) {
+  .white-page-container {
+    flex-direction: column;
+    padding: 2% 5%;
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  .white-page-container {
+    flex-direction: column;
+    padding: 15px;
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+  .white-page-container {
+    flex-direction: row;
+    padding: 15px;
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1199.99px) {
+  .white-page-container {
+    flex-direction: row;
+    padding: 15px;
+    max-width: 1125px;
+  }
+}
+
 .white-page-container {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100%;
+  width: 100%;
+  padding: 70px 0px;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }

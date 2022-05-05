@@ -1,0 +1,10 @@
+.white-header-container{
+    padding: 15px;
+    text-align: center;
+}
+
+.white-header-content{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
