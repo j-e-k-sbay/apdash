@@ -1,0 +1,35 @@
+.pwl-buttons-container{
+    display: flex;
+}
+
+.pwl-btn{
+    border-radius: 5px;
+    padding: 12px 38px;
+    transition: 0.5s ease;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.filled{
+    background-color: #9629e6;
+    color: #f5f6fa;
+    border: 1px solid #9629e6;
+}
+
+.filled:hover{
+    background-color: #7917c5;
+    border: 1px solid #7917c5;
+}
+
+.empty{
+    background-color: #f5f6fa;
+    color: #9629e6;
+    border: 1px solid #9629e6;
+}
+
+.empty:hover{
+    background-color: #7917c5;
+    border: 1px solid #7917c5;
+    color: #f5f6fa;
+}

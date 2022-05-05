@@ -1,0 +1,11 @@
+.white-paragraph-container{
+    padding: 10px;
+    text-align: center;
+}
+
+.white-paragraph-content{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.8;
+}

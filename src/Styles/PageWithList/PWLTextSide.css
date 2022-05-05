@@ -1,0 +1,48 @@
+.pwl-textside{
+    flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pwl-header {
+  font-size: 35px;
+  font-weight: bolder;
+  max-width: 450px;
+  padding: 20px 0px;
+  color: #1b2e4b;
+}
+
+.pwl-paragraph {
+  color: #818181;
+  font-size: 15px;
+  max-width: 550px;
+  line-height: 1.8;
+  padding-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}
+
+li{
+  list-style: none;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+li::before{
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #6730e3;
+  margin-right: 5px;
+  transform: translateY(120%);
+  transition: all .5s;
+  left: 0;
+}

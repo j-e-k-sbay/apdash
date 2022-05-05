@@ -4,7 +4,7 @@ import '../../Styles/OpeningPage/OpeningPageImageSide.css';
 function OpeningPageImageSide() {
   return (
     <div className="op-imageside">
-        <img className='img-container' src="/Images/app-mobile-image.png" alt="" />
+        <img className='op-img-container' src="/Images/app-mobile-image.png" alt="" />
     </div>
   );
 }
