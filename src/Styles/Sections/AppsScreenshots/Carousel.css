@@ -1,0 +1,31 @@
+li.slide::before{
+    display: none;
+}
+
+.carousel-image{
+    border-radius: 30px;
+}
+
+.carousel.carousel-slider {
+    position: relative;
+    margin: 0; 
+    overflow: inherit;
+}
+
+.carousel .control-dots .dot {
+    box-shadow: none;
+    background: none;
+    margin-top: 50px;
+}
+
+li::before {
+    transform: translateY(500%);
+}
+
+.slide .selected {
+    min-width: 50%;
+}
+
+li .selected{
+    min-width: 30%;
+}
