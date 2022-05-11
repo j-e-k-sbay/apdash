@@ -22,7 +22,6 @@ function App() {
       <ShareYourPhotos/>
       <ParallaxComp/>
       <ApdashFeatures/>
-
     </div>
   );
 }
