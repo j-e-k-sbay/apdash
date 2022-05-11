@@ -23,7 +23,6 @@ function App() {
       <ParallaxComp/>
       <ApdashFeatures/>
 
-      <OurWorkProcess/>
     </div>
   );
 }
