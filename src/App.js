@@ -10,6 +10,8 @@ import ParallaxComp from './Components/ParallaxComp/ParallaxComp';
 import ApdashFeatures from './Components/Sections/ApdashFeatures/ApdashFeatures';
 import AppScreenshots from './Components/Sections/AppsScreenshots/AppScreenshots';
 
+import OurWorkProcess from './Components/Sections/OurWorkProcess/OurWorkProcess';
+
 function App() {
 
   return (
