@@ -1,0 +1,10 @@
+.as-header-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.as-content{
+    margin: auto;
+    justify-content: center;
+    padding: 30px 0px;
+}

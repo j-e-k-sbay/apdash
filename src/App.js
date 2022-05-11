@@ -8,6 +8,7 @@ import ApdashHelpToManage from './Components/Sections/ApdashHelpToManage';
 import ShareYourPhotos from './Components/Sections/ShareYourPhotos';
 import ParallaxComp from './Components/ParallaxComp/ParallaxComp';
 import ApdashFeatures from './Components/Sections/ApdashFeatures/ApdashFeatures';
+import AppScreenshots from './Components/Sections/AppsScreenshots/AppScreenshots';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <ShareYourPhotos/>
       <ParallaxComp/>
       <ApdashFeatures/>
+      <AppScreenshots/>
     </div>
   );
 }
