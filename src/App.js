@@ -9,6 +9,8 @@ import ShareYourPhotos from './Components/Sections/ShareYourPhotos';
 import ParallaxComp from './Components/ParallaxComp/ParallaxComp';
 import ApdashFeatures from './Components/Sections/ApdashFeatures/ApdashFeatures';
 
+import OurWorkProcess from './Components/Sections/OurWorkProcess/OurWorkProcess';
+
 function App() {
 
   return (
@@ -20,6 +22,8 @@ function App() {
       <ShareYourPhotos/>
       <ParallaxComp/>
       <ApdashFeatures/>
+
+      <OurWorkProcess/>
     </div>
   );
 }
